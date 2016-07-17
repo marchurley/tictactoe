@@ -33,6 +33,7 @@ $(document).ready(function(){
           game ++
           checkResult("OOO", "Player O");
           checkDraw();
+          console.log(tic);
         }
     } else {
       alert("You already played this box!");
@@ -68,7 +69,7 @@ $(document).ready(function(){
     game = 0;
     $("td").empty();
     $("h2").text("Player X will start");
-    for (var i = 0; i < 9; i++) {
+    for (var i = 1; i < 10; i++) {
       tic[i] = 0;
     }
   }
