@@ -1,0 +1,64 @@
+/*---------------------------------------------------------------------------------
+   Common Styles
+---------------------------------------------------------------------------------*/
+html {
+	width: 100%;
+	height: 100%;
+	min-height: 850px;
+	background-color: #A7A37E;
+}
+
+
+body {
+	position: relative;
+	width: 96%;
+	height: 96%;
+	min-height: 900px;
+	margin: 1em auto;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: #EFECCA;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 1px 2px 3px #E6E2AF;
+	-moz-box-shadow: 1px 2px 3px #E6E2AF;
+	box-shadow: 1px 2px 3px #E6E2AF;
+	font-size: 1.2em;
+}
+
+/*---------------------------------------------------------------------------------
+   Other Styles
+---------------------------------------------------------------------------------*/
+
+h1, h2 {
+	color: #002F2F;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+h1 {
+	padding: 1.5em 0;
+	font-family: 'Rock Salt', cursive;
+}
+
+h2 {
+	padding-bottom: 0.7em;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+td {
+	border: 4px groove #002F2F;
+	width: 195px;
+	height: 120px;
+	padding-top: 80px;
+	font-size: 2em;
+	color: #046380;
+	font-weight: 600;
+}
